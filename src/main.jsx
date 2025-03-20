@@ -9,7 +9,7 @@ import { StampProvider } from "./context/StampContext.jsx";
 import { CartProvider } from "./context/CartContext.jsx";
 import { PostalCircleProvider } from "./context/PostalCircleContext.jsx";
 import { AuthProvider } from "./context/AuthContext";
-import { WalletProvider } from "./context/WalletContext.jsx";
+
 
 // Render the app with all context providers
 createRoot(document.getElementById("root")).render(
