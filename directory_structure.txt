@@ -14,25 +14,6 @@
 │   │   └── item-4.jpg
 │   └── vite.svg
 ├── src
-│   ├── Admin
-│   │   ├── Dashboard
-│   │   │   ├── Dashboard.jsx
-│   │   │   └── Stats
-│   │   │       ├── StatsCard.jsx
-│   │   │       ├── StatsGraph.jsx
-│   │   │       └── StatsList.jsx
-│   │   └── Navbar
-│   │       ├── Desktop-Menu
-│   │       │   ├── DesktopMenu.jsx
-│   │       │   ├── MenuItems.jsx
-│   │       │   ├── SearchBar.jsx
-│   │       │   └── UserMenu.jsx
-│   │       ├── Mobile-Menu
-│   │       │   ├── MobileDropdownMenu.jsx
-│   │       │   └── MobileMenu.jsx
-│   │       ├── Navbar.jsx
-│   │       ├── NavbarLogo.jsx
-│   │       └── TopBar.jsx
 │   ├── App.css
 │   ├── App.jsx
 │   ├── Components
@@ -44,11 +25,6 @@
 │   │   │   │   ├── SignUp.jsx
 │   │   │   │   └── SignUpForm.jsx
 │   │   │   └── ToggleRole.jsx
-│   │   ├── Events
-│   │   │   ├── AllEvents.jsx
-│   │   │   ├── Event.jsx
-│   │   │   ├── EventCard.jsx
-│   │   │   └── EventModal.jsx
 │   │   ├── Footer
 │   │   │   └── Footer.jsx
 │   │   ├── Hero
@@ -58,7 +34,6 @@
 │   │   │       ├── GetLatestNews.jsx
 │   │   │       ├── GetRewards.jsx
 │   │   │       ├── JoinCommunity.jsx
-│   │   │       ├── PDAAccountInfo.jsx
 │   │   │       └── SwiperSlider.jsx
 │   │   ├── Items
 │   │   │   ├── AllItemsPage.jsx
@@ -83,16 +58,8 @@
 │   │   │   ├── NewsCard.jsx
 │   │   │   ├── NewsDetailPage.jsx
 │   │   │   └── NewsList.jsx
-│   │   ├── Statistics
-│   │   │   ├── Statistics.jsx
-│   │   │   └── StatisticsCard.jsx
-│   │   └── UserProfile
-│   │       └── UserProfile.jsx
 │   ├── Layouts
-│   │   ├── AdminLayout.jsx
 │   │   └── GuestLayout.jsx
-│   ├── Routes
-│   │   └── ProtectedAdminRoute.jsx
 │   ├── UI
 │   │   └── BackButton.jsx
 │   ├── assets
@@ -112,4 +79,4 @@
 ├── tailwind.config.js
 └── vite.config.js
 
-31 directories, 82 files
+20 directories, 62 files
