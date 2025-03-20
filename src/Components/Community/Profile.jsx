@@ -75,7 +75,7 @@ const Profile = () => {
             />
           </div>
 
-          <h1 className="text-xl text-primary-dark font-bold">Priyansi Borda</h1>
+          <h1 className="text-xl text-primary-dark font-bold">Darshil Kothiya</h1>
           <p className="text-sm text-gray-600 dark:text-gray-400">
             Passionate stamp collector exploring postal history
           </p>

@@ -1,15 +1,15 @@
-import { createContext, useContext, useState } from "react";
+// import { createContext, useContext, useState } from "react";
 
-const WalletContext = createContext();
+// const WalletContext = createContext();
 
-export const useWallet = () => useContext(WalletContext);
+// export const useWallet = () => useContext(WalletContext);
 
-export const WalletProvider = ({ children }) => {
-  const [walletBalance, setWalletBalance] = useState(0);
+// export const WalletProvider = ({ children }) => {
+//   const [walletBalance, setWalletBalance] = useState(0);
 
-  return (
-    <WalletContext.Provider value={{ walletBalance, setWalletBalance }}>
-      {children}
-    </WalletContext.Provider>
-  );
-};
+//   return (
+//     <WalletContext.Provider value={{ walletBalance, setWalletBalance }}>
+//       {children}
+//     </WalletContext.Provider>
+//   );
+// };

@@ -7,7 +7,7 @@ import AllNewsPage from "./Components/News/AllNewsPage";
 
 import NewsDetailPage from "./Components/News/NewsDetailPage";
 import AllItemsPage from "./Components/Items/Stamps/AllItemsPage";
-// import AncillaryPage from "./Components/Items/Ancillary/AncillaryPage";
+
 import StampDetailsPage from "./Components/Items/Stamps/StampDetailsPage";
 import GuestLayout from "./Layouts/GuestLayout";
 
@@ -60,43 +60,16 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="auth/login" element={<Login />} />
           <Route path="user/signup" element={<SignUp />} />
-          {/* <Route path="user-profile" element={<UserProfile />} /> */}
           <Route path="all-news" element={<AllNewsPage />} />
           <Route path="all-news/:id" element={<NewsDetailPage />} />
-          {/* <Route path="all-events" element={<AllEvents />} /> */}
           <Route path="all-items" element={<AllItemsPage />} />
           <Route path="items/stamp/:id" element={<StampDetailsPage />} />
           <Route path="items/my-cart" element={<MyCart />} />
-       
-          {/* <Route path="pda" element={<PDAInfo />} />
-          <Route path="pda/create-account" element={<PDAForm />} />
-          <Route path="pda/create-account/add-money" element={<AddMoney />} />
-          <Route path="pda/create-account/user-info" element={<UserInfo />} /> */}
-          {/* <Route path="all-ancillary-items" element={<AncillaryPage />} /> */}
-          {/* <Route path="user-profile" element={<UserProfile />} /> */}
-          {/* <Route path="help" element={<Help />} /> */}
           <Route path="community" element={<Community />} />
           <Route path="community/profile" element={<Profile />} />
-          {/* <Route path="user-profile/orders" element={<Orders />} />
-          <Route path="user-profile/favourites" element={<Favourites />} />
-          <Route path="user-profile/wishlist" element={<Wishlist />} /> */}
-          {/* <Route path="checkout-success" element={<PaymentSuccess />} />
-          <Route path="mediator-help" element={<MediatorHelpPage />} /> */}
+
         </Route>
 
-        {/* <Route
-          path="/user/signup"
-          element={
-            token!==null ? <Navigate to="/" /> : (<SignUp />)
-          }
-        />
-
-        <Route
-          path="/auth/login"
-          element={
-            token!==null ? <Navigate to="/" /> : (<Login />)
-          }
-        /> */}
 
         
 

@@ -25,7 +25,7 @@ const Community = () => {
     },
     {
       id: 2,
-      username: "Priyansi", 
+      username: "Darshil", 
     profileImage: "https://randomuser.me/api/portraits/men/1.jpg", 
       name: "Art Deco Collection",
       description:
@@ -39,7 +39,7 @@ const Community = () => {
     },
     {
       id: 3,
-      username: "Priyansi",
+      username: "Darshil",
     profileImage: "https://randomuser.me/api/portraits/men/1.jpg", 
       name: "Classic Cars Collection",
       description:
@@ -53,7 +53,7 @@ const Community = () => {
     },
     {
       id: 4,
-      username: "Priyansi", 
+      username: "Darshil", 
     profileImage: "https://randomuser.me/api/portraits/men/1.jpg", 
       name: "Wildlife Stamps",
       description:
@@ -67,7 +67,7 @@ const Community = () => {
     },
     {
       id: 5,
-      username: "Priyansi",
+      username: "Darshil",
     profileImage: "https://randomuser.me/api/portraits/men/1.jpg", 
       name: "Space Exploration Series",
       description:
@@ -81,7 +81,7 @@ const Community = () => {
     },
     {
       id: 6,
-      username: "Priyansi",
+      username: "Darshil",
     profileImage: "https://randomuser.me/api/portraits/men/1.jpg", 
       name: "Festivals Around the World",
       description:
@@ -95,7 +95,7 @@ const Community = () => {
     },
     {
       id: 7,
-      username: "Priyansi", 
+      username: "Darshil", 
     profileImage: "https://randomuser.me/api/portraits/men/1.jpg", 
       name: "Sports Legends Stamps",
       description:
