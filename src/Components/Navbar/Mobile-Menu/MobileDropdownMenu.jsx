@@ -10,7 +10,7 @@ const menuItems = [
   },
   { name: "Community", link: "/" },
   { name: "News", link: "/all-news" },
-  { name: "Events", link: "/all-events" },
+  
   {
     name: "Items",
     link: "/",

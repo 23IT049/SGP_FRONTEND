@@ -25,8 +25,7 @@ const DesktopMenu = () => {
   const allMenuItems = [
     { name: "Community", link: "/community" },
     { name: "News", link: "/all-news" },
-    { name: "Events", link: "/all-events" },
-    { name: "PDA", link: "/pda" },
+
     {
       name: "Items",
       link: "/all-items",

@@ -5,7 +5,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { Autoplay, Navigation } from "swiper/modules";
-import PDAAccountInfo from "./PDAAccountInfo";
+
 import JoinCommunity from "./JoinCommunity";
 import GetRewards from "./GetRewards";
 import GetLatestNews from "./GetLatestNews";
@@ -25,9 +25,7 @@ const SwiperSlider = () => {
         className="w-full h-1/3"
         modules={[Autoplay, Navigation]}
       >
-        <SwiperSlide>
-          <PDAAccountInfo />
-        </SwiperSlide>
+        
 
         <SwiperSlide>
           <JoinCommunity />

@@ -11,7 +11,7 @@ const Community = () => {
   const [collections, setCollections] = useState([
     {
       id: 1,
-      username: "Priyansi", 
+      username: "Darshil", 
     profileImage: "https://randomuser.me/api/portraits/men/1.jpg", 
       name: "Victorian Era Stamps",
       description:
@@ -182,7 +182,7 @@ const Community = () => {
   className="text-2xl font-bold text-primary-dark cursor-pointer transition-all duration-300 tracking-wide"
   onClick={() => window.location.href = '/community/profile'}
 >
-  Priyansi's Stamp Vault
+  Darshil's Stamp Vault
 </h1>
 
         </Link>

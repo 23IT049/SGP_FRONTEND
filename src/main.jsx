@@ -21,9 +21,7 @@ createRoot(document.getElementById("root")).render(
             <StampProvider>
               <CartProvider>
                 <PostalCircleProvider>
-                  <WalletProvider>
                     <App />
-                  </WalletProvider>
                 </PostalCircleProvider>
               </CartProvider>
             </StampProvider>
