@@ -16,7 +16,7 @@ const NavbarLogo = () => {
         className="md:h-16 h-10"
       />
       <span className="text-primary-dark dark:text-primary-light font-bold text-lg">
-        India Post
+        India Philatelist
       </span>
     </div>
   );

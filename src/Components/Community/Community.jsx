@@ -5,6 +5,7 @@ import { FaThumbsUp, FaThumbsDown, FaCommentDots, FaShareAlt } from "react-icons
 import { FaHome, FaFolder, FaPaperPlane } from 'react-icons/fa';
 import { FaTrash } from 'react-icons/fa'; 
 
+
 const Community = () => {
   const [showModal, setShowModal] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");

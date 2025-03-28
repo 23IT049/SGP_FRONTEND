@@ -18,13 +18,15 @@ function LoginForm({
   const { login, setUser, currUser } = useAuth();
   
   const handleLogin = async () => {
+    navigate("/")
     await login(loginData);
     console.log(currUser)
     console.log("pda",currUser.isPDA)
     const token = localStorage.getItem("token");
+   
     if (token) {
       const role = jwtDecode(token).role;
-
+     
       if (role === "admin") {
         navigate("/admin");
       } else if (role == "postal") {
@@ -117,8 +119,9 @@ function LoginForm({
 
       <Form.Item>
         <Button
+          
           htmlType="submit"
-          onClick={isUser ? handleLogin : handlePostalLogin}
+          onClick={handleLogin}
           size="large"
           className="w-full bg-primary-dark dark:bg-accent-dark text-white dark:text-text-light mt-4"
         >

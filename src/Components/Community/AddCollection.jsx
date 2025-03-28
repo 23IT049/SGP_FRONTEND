@@ -66,7 +66,7 @@ const AddCollection = ({ onClose, onAdd }) => {
               />
             </div>
             <div>
-              <h1 className="text-lg font-semibold">Priyansi Borda</h1>
+              <h1 className="text-lg font-semibold">Darshil kothiya</h1>
             </div>
           </div>
         </div>
